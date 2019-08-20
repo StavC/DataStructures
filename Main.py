@@ -9,13 +9,17 @@ def main():
     single_linked_list.add_node(Node(2))
     single_linked_list.add_node(Node(3))
     single_linked_list.add_node(Node(4))
-    single_linked_list.print()
-    print(single_linked_list.tail.get_value())
-    print(single_linked_list.cycle_check())
+   # single_linked_list.print()
+   # print(single_linked_list.tail.get_value())
+   # print(single_linked_list.cycle_check())
    # single_linked_list.tail.next_node=single_linked_list.tail
    # print(single_linked_list.cycle_check())
-    single_linked_list.reverse_list()
+   # single_linked_list.reverse_list()
+    #single_linked_list.print()
+    print(single_linked_list.nth_to_last_node(1))
     single_linked_list.print()
+    print(single_linked_list.nth_to_last_node(3))
+
 ###########
 
 ########### testing double linked list
